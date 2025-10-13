@@ -1,5 +1,4 @@
 import { Search, Bell, CircleUserRound } from 'lucide-react'
-import React from 'react'
 
 const Header = () => {
   return (
