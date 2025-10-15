@@ -4,10 +4,10 @@ import Header from './components/shared/Header';
 function App() {
 
   return (
-    <>
+    <div className=''>
       <Header />
       <Outlet />   
-    </>
+    </div>
   )
 }
 
