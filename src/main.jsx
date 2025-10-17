@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Orders from './pages/Orders'
 import Auth from './pages/Auth'
 import Tables from './pages/Tables'
+import Menu from './pages/Menu'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/tables',
         element: <Tables />,
+      },
+      {
+        path: '/menu',
+        element: <Menu />,
       }
     ],
   },
