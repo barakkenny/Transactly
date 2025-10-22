@@ -8,7 +8,7 @@ import { tables } from '../constants/index'
 const Tables = () => {
     const [status, setStatus] = useState('all')
   return (
-    <section className='bg-[#1f1f1f] h-calc(100vh-5rem) overflow-hiddeb'>
+    <section className='bg-[#1f1f1f] h-calc(100vh-5rem) overflow-hidden'>
       <div className="flex items-center justify-between px-10 py-4">
         <div className='flex items-center gap-4'>
             <BackButton />
@@ -24,7 +24,7 @@ const Tables = () => {
         <div className='flex flex-wrap gap-5 p-10 py-5 overflow-y-scroll h-[700px] scrollbar-hide'>
             {
                 tables.map((table) => (
-                    <TableCard key={table.id} name={table.name} status={table.status} initials={table.initials} />
+                    <TableCard key={table.id} id={table.id} name={table.name} status={table.status} initials={table.initial} seats={table.seats}/>
                 ))
             }
         </div>
