@@ -375,4 +375,14 @@ export const menus = [
   { id: 6, name: "Pizzas", bgColor: "#285430" ,icon: "🍕", items: pizzas },
   { id: 7, name: "Alcoholic Drinks", bgColor: "#b73e3e" ,icon: "🍺", items: alcoholicDrinks },
   { id: 8, name: "Salads", bgColor: "#5b45b0" ,icon: "🥗", items: salads }
-]
+];
+
+  export const formatDate = (date) => {
+        const months = [
+            'January', 'february', 'March', 'April', 'May', 'June',
+            'July', 'August', 'September', 'October', 'November', 'December'
+        ];
+
+        return `${months[date.getMonth()]} ${String(date.getDate()).padStart(2, '0')}, 
+        ${date.getFullYear()}`;
+    };

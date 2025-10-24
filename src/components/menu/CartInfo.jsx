@@ -18,7 +18,7 @@ const CartInfo = () => {
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-center gap-3">
               <RiDeleteBin2Fill
-                className="text-[ababab] cursor-pointer"
+                className="text-[#ababab] cursor-pointer"
                 size={20}
               />
               <FaNotesMedical
@@ -39,7 +39,7 @@ const CartInfo = () => {
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-center gap-3">
               <RiDeleteBin2Fill
-                className="text-[ababab] cursor-pointer"
+                className="text-[#ababab] cursor-pointer"
                 size={20}
               />
               <FaNotesMedical
@@ -60,7 +60,7 @@ const CartInfo = () => {
           <div className="flex items-center justify-between mt-3">
             <div className="flex items-center gap-3">
               <RiDeleteBin2Fill
-                className="text-[ababab] cursor-pointer"
+                className="text-[#ababab] cursor-pointer"
                 size={20}
               />
               <FaNotesMedical

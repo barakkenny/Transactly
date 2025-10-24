@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 const Greetings = () => {
-    const [dateTime, setDateTime] = useState(new Date());
+  const [dateTime, setDateTime] = useState(new Date());
 
     useEffect(() => {
         const timer = setInterval(() => setDateTime(new Date()), 1000);

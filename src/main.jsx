@@ -8,6 +8,8 @@ import Orders from './pages/Orders'
 import Auth from './pages/Auth'
 import Tables from './pages/Tables'
 import Menu from './pages/Menu'
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Provider store={store}>
     <RouterProvider router={router} />
+    </Provider>
   </StrictMode>
 )
